@@ -1,0 +1,22 @@
+[
+    { "day": "Thursday", "time": "8 - 10 a.m.", "name": "React Basics", "speaker": "Isabella Rossi", "description": "Workshop description, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut." },
+    { "day": "Thursday", "time": "10 - 12 a.m.", "name": "Advanced React", "speaker": "Isabella Rossi", "description": "Workshop description, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut." },
+    { "day": "Thursday", "time": "12 - 2 p.m.", "name": "BREAK", "description": "TAKE A BREAK & CONNECT" },
+    { "day": "Thursday", "time": "2 - 4 p.m.", "name": "React Hooks", "speaker": "Tanita Herbst", "description": "Workshop description, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut." },
+    { "day": "Thursday", "time": "4 - 6 p.m.", "name": "TypeScript Intro", "speaker": "Adrian Navarro", "description": "Workshop description, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut." },
+    { "day": "Friday", "time": "8 - 10 a.m.", "name": "GraphQL Basics", "speaker": "Lukas Schäfer", "description": "Workshop description, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut." },
+    { "day": "Friday", "time": "10 - 12 a.m.", "name": "Apollo Client", "speaker": "Sofia Alvarez", "description": "Workshop description, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut." },
+    { "day": "Friday", "time": "12 - 2 p.m.", "name": "BREAK", "description": "TAKE A BREAK & CONNECT" },
+    { "day": "Friday", "time": "2 - 4 p.m.", "name": "React State Management", "speaker": "Tanita Herbst", "description": "Workshop description, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut." },
+    { "day": "Friday", "time": "4 - 6 p.m.", "name": "Redux Toolkit", "speaker": "Adrian Navarro", "description": "Workshop description, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut." },
+    { "day": "Saturday", "time": "8 - 10 a.m.", "name": "JavaScript Fundamentals", "speaker": "Matthew Maier", "description": "Workshop description, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut." },
+    { "day": "Saturday", "time": "10 - 12 a.m.", "name": "Advanced JavaScript", "speaker": "Matthew Maier", "description": "Workshop description, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut." },
+    { "day": "Saturday", "time": "12 - 2 p.m.", "name": "BREAK", "description": "TAKE A BREAK & CONNECT" },
+    { "day": "Saturday", "time": "2 - 4 p.m.", "name": "Node.js Intro", "speaker": "Lena Fischer", "description": "Workshop description, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut." },
+    { "day": "Saturday", "time": "4 - 6 p.m.", "name": "Express.js Basics", "speaker": "Aisha Khan", "description": "Workshop description, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut."  },
+    { "day": "Sunday", "time": "8 - 10 a.m.", "name": "Web Security", "speaker": "Marco Bellini", "description": "Workshop description, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut."  },
+    { "day": "Sunday", "time": "10 - 12 a.m.", "name": "Next.js Basics", "speaker": "Aisha Khan", "description": "Workshop description, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut."  },
+    { "day": "Sunday", "time": "12 - 2 p.m.", "name": "BREAK", "description": "TAKE A BREAK & CONNECT" },
+    { "day": "Sunday", "time": "2 - 4 p.m.", "name": "Fullstack Apps", "speaker": "Adrian Navarro", "description": "Workshop description, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut."  },
+    { "day": "Sunday", "time": "4 - 6 p.m.", "name": "Deployment Strategies", "speaker": "Lukas Schäfer", "description": "Workshop description, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut."  }
+  ]
