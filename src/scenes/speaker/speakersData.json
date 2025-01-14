@@ -1,6 +1,6 @@
 [
   {
-    "image": "./src/assets/speaker1.png",
+    "image": "@/assets/speaker1.png",
     "name": "Tanita Herbst",
     "description": "Senior UX Researcher at LinkedIn"
   },
