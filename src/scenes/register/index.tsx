@@ -97,7 +97,7 @@ const Register = ({setSelectedPage}: Props) => {
                                 className="mt-10 rounded-full font-semibold text-m bg-blue-2 text-blue-1 px-20 py-3 
                                     transition duration-300 hover:bg-blue-3 hover:text-white shadow-[0_6px_10px_rgba(0,0,0,0.2)]"
                             >
-                            SENDEN  
+                            SUBMIT  
                             </button>
                         </form>
                     </motion.div>

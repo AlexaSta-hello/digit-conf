@@ -2,8 +2,8 @@ export enum SelectedPage {
     Home = "home",
     Speakers = "speakers",
     Workshops = "workshops",
+    FAQ = "faq",
     Register = "register",
-    FAQ = "faq"
   }
 
 export interface SpeakerType {

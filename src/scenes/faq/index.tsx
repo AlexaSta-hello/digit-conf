@@ -6,6 +6,8 @@ import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
 import Typography from '@mui/material/Typography';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
+import MapComponent from "./MapComponent";
+
 
 
 
@@ -68,8 +70,9 @@ const Faq = ({setSelectedPage}: Props) => {
                     </AccordionSummary>
                     <AccordionDetails
                         className="bg-blue-1 text-blue-3 ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget.
+                        <p className="mb-3 font-m">The Conference takes place at IfZ - Institut für Zukunft. <br />
+                            An den Tierkliniken 38-40, 04103 Leipzig</p>
+                        <MapComponent />
                     </AccordionDetails>
                 </Accordion>
                 <Accordion disableGutters elevation={0}>

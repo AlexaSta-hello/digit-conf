@@ -24,8 +24,8 @@ const Speakers = ({setSelectedPage}: Props) => {
             {/* Header */}
             <div className="bg-blue-2 text-blue-1 h-[25vh] flex items-center justify-center">
                 
-                <div className="relative before:absolute sm:before:content-network before:-left-36 before:top-0 lg:before:top-4 before:z-10
-                  after:absolute sm:after:content-network after:-right-36 after:top-0 lg:after:top-4 after:z-10">
+                <div className="relative before:absolute sm:before:content-pinkherz before:-left-36 before:top-0 lg:before:top-4 before:z-10
+                  after:absolute sm:after:content-pinkherz after:-right-36 after:top-0 lg:after:top-4 after:z-10">
                   <HText>SPEAKERS</HText>
                 </div>        
                 

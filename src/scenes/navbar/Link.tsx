@@ -23,6 +23,7 @@ const Link = ({
             `}
             href={`#${lowerCasePage}`}
             onClick={() => setSelectedPage(lowerCasePage)}
+            offset="80" // Margin Top von 80px
         >
             {page}
         </AnchorLink>

@@ -18,8 +18,8 @@ const Workshops = ({setSelectedPage}: Props) => {
              {/* Header */}
              <div className="bg-blue-1 text-blue-3 h-[25vh] flex items-center justify-center">
                 
-                <div className="relative before:absolute sm:before:content-pinkherz before:-left-32 lg:before:top-4 before:z-10
-                  after:absolute sm:after:content-pinkherz after:-right-32 after:top-0 lg:after:top-4 after:z-10">
+                <div className="relative before:absolute sm:before:content-network before:-left-32 lg:before:top-4 before:z-10
+                  after:absolute sm:after:content-network after:-right-32 after:top-0 lg:after:top-4 after:z-10">
                   <HText>WORKSHOPS</HText>
                 </div>        
              
