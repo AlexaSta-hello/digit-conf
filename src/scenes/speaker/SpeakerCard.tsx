@@ -1,12 +1,11 @@
+import { SpeakerType } from "@/shared/types";
 import {motion} from "framer-motion";
 
 type Props = {
-    image: string;
-    name: string;
-    description: string;
+    speaker: SpeakerType;
 };
 
-const Speaker = ({image, name, description}: Props) => {
+const SpeakerCard = ({speaker}: Props) => {
   return (
    <motion.div
         className="text-center text-white flex items-center gap-y-6"
@@ -23,10 +22,10 @@ const Speaker = ({image, name, description}: Props) => {
    <div className="mb-12 sm:mb-0">
         <img 
         className="rounded-3xl mb-8"
-        src={image} alt="speaker" 
+        src={speaker.image} alt="speaker" 
         />
-        <h4 className="font-semibold text-lg text-blue-1 mb-2">{name}</h4>
-        <p className="font-normal">{description}</p>
+        <h4 className="font-semibold text-lg text-blue-1 mb-2">{speaker.name}</h4>
+        <p className="font-normal">{speaker.description}</p>
    </div>
         
          
@@ -34,4 +33,4 @@ const Speaker = ({image, name, description}: Props) => {
   )
 }
 
-export default Speaker;
+export default SpeakerCard;

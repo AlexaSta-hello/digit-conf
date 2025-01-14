@@ -21,7 +21,7 @@ const Workshops = ({setSelectedPage}: Props) => {
                 <div className="relative before:absolute sm:before:content-network before:-left-32 lg:before:top-4 before:z-10
                   after:absolute sm:after:content-network after:-right-32 after:top-0 lg:after:top-4 after:z-10">
                   <HText>WORKSHOPS</HText>
-                </div>        
+                </div>       
              
             </div>
 
@@ -32,8 +32,8 @@ const Workshops = ({setSelectedPage}: Props) => {
               viewport={{ once: true, amount: 0.2 }}
               transition={{ duration: 0.4 }}
               variants={{
-                hidden: { opacity: 0, y: -50 },
-                visible: { opacity: 1, y: 0 },
+                hidden: { opacity: 0, x: -50 },
+                visible: { opacity: 1, x: 0 },
               }}
             >
               <p

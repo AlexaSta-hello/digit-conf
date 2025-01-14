@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import workshopsData from "./workshopsData.json";
 import { Workshop } from "@/shared/types";
 import { motion } from "framer-motion";
-import WorkshopCard from "./Workshop";
+import WorkshopCard from "./WorkshopCard";
 
 const WorkshopSchedule = () => {
   const [workshops, setWorkshops] = useState<Workshop[]>([]);

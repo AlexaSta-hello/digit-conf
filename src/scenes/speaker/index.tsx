@@ -1,19 +1,13 @@
 import HText from "@/shared/HText";
-import { SpeakerType, SelectedPage } from "@/shared/types";
+import { SelectedPage } from "@/shared/types";
+import SpeakersList from "./SpeakersList";
 import { motion } from "framer-motion";
-import Speaker from "./Speaker";
-import speakersData from "./speakersData.json";
+
 
 type Props = {
     setSelectedPage: (value: SelectedPage) => void;
 }
 
-const container = {
-    hidden: {},
-    visible: {
-        transition: {staggerChildren: 0.2} /* Framer Motion Eigenschaft für Zeitversatz der Animation bei Kind Elementen*/
-    }
-}
 
 const Speakers = ({setSelectedPage}: Props) => {
   return (
@@ -34,24 +28,7 @@ const Speakers = ({setSelectedPage}: Props) => {
 
             {/* Speakers */}
             <div className="flex items-center justify-center py-32 px-24 max-w-[1200px] m-auto">
-                <motion.div 
-                    className="sm:grid sm:grid-cols-2 md:grid-cols-3 gap-20 "
-                    initial="hidden"
-                    whileInView="visible"
-                    viewport={{once: true, amount: 0.5}}
-                    variants={container}
-                >
-                    {speakersData.map((speaker: SpeakerType) => ( /* Array mit Icon, Überschirft, Text etc */
-                        
-                        <Speaker
-                            key={speaker.name}
-                            image={speaker.image}
-                            name={speaker.name}
-                            description={speaker.description}
-                        />
-                       
-                    ))}
-                </motion.div>
+                <SpeakersList />
             </div>
              
         </motion.div>
