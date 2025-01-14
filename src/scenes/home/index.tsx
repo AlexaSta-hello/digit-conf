@@ -2,7 +2,6 @@
 import { SelectedPage } from "@/shared/types";
 import ActionButton from "@/shared/ActionButton";
 import HText from "@/shared/HText";
-import SilverPattern from "@/assets/SilverPattern.png";
 import {  motion } from "framer-motion";
 import DateAnimation from "@/shared/DateAnimation";
 
