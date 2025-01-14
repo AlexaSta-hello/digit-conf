@@ -34,7 +34,7 @@ const Faq = ({setSelectedPage}: Props) => {
             </div>
 
             <div className="max-w-[1200px] m-auto mt-32 px-5">
-                <Accordion>
+                <Accordion disableGutters elevation={0}>
                     <AccordionSummary
                     expandIcon={<ExpandMoreIcon className="text-blue-3 text-6xl"/>}
                     aria-controls="panel1-content"
@@ -53,7 +53,7 @@ const Faq = ({setSelectedPage}: Props) => {
                     malesuada lacus ex, sit amet blandit leo lobortis eget.
                     </AccordionDetails>
                 </Accordion>
-                <Accordion>
+                <Accordion disableGutters elevation={0}>
                     <AccordionSummary
                     expandIcon={<ExpandMoreIcon className="text-blue-3 text-6xl"/>}
                     aria-controls="panel1-content"
@@ -72,7 +72,7 @@ const Faq = ({setSelectedPage}: Props) => {
                     malesuada lacus ex, sit amet blandit leo lobortis eget.
                     </AccordionDetails>
                 </Accordion>
-                <Accordion>
+                <Accordion disableGutters elevation={0}>
                     <AccordionSummary
                     expandIcon={<ExpandMoreIcon className="text-blue-3 text-6xl"/>}
                     aria-controls="panel1-content"
@@ -91,7 +91,7 @@ const Faq = ({setSelectedPage}: Props) => {
                     malesuada lacus ex, sit amet blandit leo lobortis eget.
                     </AccordionDetails>
                 </Accordion>
-                <Accordion>
+                <Accordion disableGutters elevation={0}>
                     <AccordionSummary
                     expandIcon={<ExpandMoreIcon className="text-blue-3 text-6xl"/>}
                     aria-controls="panel1-content"
@@ -110,7 +110,7 @@ const Faq = ({setSelectedPage}: Props) => {
                     malesuada lacus ex, sit amet blandit leo lobortis eget.
                     </AccordionDetails>
                 </Accordion>
-                <Accordion>
+                <Accordion disableGutters elevation={0}>
                     <AccordionSummary
                     expandIcon={<ExpandMoreIcon className="text-blue-3 text-6xl"/>}
                     aria-controls="panel1-content"
