@@ -1,46 +1,46 @@
 [
   {
-    "image": "@/assets/speaker1.png",
+    "image": "/assets/speaker1.png",
     "name": "Tanita Herbst",
     "description": "Senior UX Researcher at LinkedIn"
   },
   {
-    "image": "./src/assets/speaker2.png",
+    "image": "/assets/speaker2.png",
     "name": "Adrian Navarro",
     "description": "Senior UX Researcher at LinkedIn"
   },
   {
-    "image": "./src/assets/speaker3.png",
+    "image": "/assets/speaker3.png",
     "name": "Lukas Schäfer",
     "description": "Senior UX Researcher at LinkedIn"
   },
   {
-    "image": "./src/assets/speaker4.png",
+    "image": "/assets/speaker4.png",
     "name": "Sofia Alvarez",
     "description": "Senior UX Researcher at LinkedIn"
   },
   {
-    "image": "./src/assets/speaker5.png",
+    "image": "/assets/speaker5.png",
     "name": "Matthew Maier",
     "description": "Senior UX Researcher at LinkedIn"
   },
   {
-    "image": "./src/assets/speaker6.png",
+    "image": "/assets/speaker6.png",
     "name": "Lena Fischer",
     "description": "Senior UX Researcher at LinkedIn"
   },
   {
-    "image": "./src/assets/speaker7.png",
+    "image": "/assets/speaker7.png",
     "name": "Isabella Rossi",
     "description": "Senior UX Researcher at LinkedIn"
   },
   {
-    "image": "./src/assets/speaker8.png",
+    "image": "/assets/speaker8.png",
     "name": "Marco Bellini",
     "description": "Senior UX Researcher at LinkedIn"
   },
   {
-    "image": "./src/assets/speaker9.png",
+    "image": "/assets/speaker9.png",
     "name": "Aisha Khan",
     "description": "Senior UX Researcher at LinkedIn"
   }

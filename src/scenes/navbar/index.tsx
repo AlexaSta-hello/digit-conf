@@ -2,8 +2,8 @@
 
 
 import { useState } from "react";
-import Logo from "@/assets/Logo.png";
-import AbstractWaves from "@/assets/AbstractWaves.png";
+import Logo from "/assets/Logo.png";
+import AbstractWaves from "/assets/AbstractWaves.png";
 import Link from "./Link";
 import { SelectedPage } from "@/shared/types";
 import useMediaQuery from "@/hooks/useMediaQuery";
