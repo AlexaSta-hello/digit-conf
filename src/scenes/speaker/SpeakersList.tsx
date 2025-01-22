@@ -8,17 +8,16 @@ const SpeakersList = () => {
     const [speakers, setSpeakers] = useState<SpeakerType[]>([]);
 
     useEffect (() => {
-        console.log(speakersData);
         setSpeakers(speakersData as SpeakerType[]);
     }, []);
 
     const parentVariant = {
         hidden: { opacity: 0 },
         visible: {
-          opacity: 1,
-          transition: {
-            staggerChildren: 0.1,
-          },
+            opacity: 1,
+            transition: {
+                staggerChildren: 0.1,
+            },
         },
       };
     
