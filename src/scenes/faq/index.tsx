@@ -35,7 +35,7 @@ const Faq = ({setSelectedPage}: Props) => {
              
             </div>
 
-            <div className="max-w-[1200px] m-auto mt-32 px-5">
+            <div className="max-w-[1200px] m-auto mt-32 px-5 z-0">
                 <Accordion disableGutters defaultExpanded elevation={0}>
                     <AccordionSummary
                     expandIcon={<ExpandMoreIcon className="text-blue-3 text-6xl"/>}
@@ -50,9 +50,10 @@ const Faq = ({setSelectedPage}: Props) => {
                     </Typography>
                     </AccordionSummary>
                     <AccordionDetails
-                        className="bg-blue-1 text-blue-3 ">
+                        className="bg-blue-1 text-blue-3 z-0">
                         <p className="mb-3 font-m">The Conference takes place at IfZ - Institut für Zukunft. <br />
-                            An den Tierkliniken 38-40, 04103 Leipzig</p>
+                            An den Tierkliniken 38-40, 04103 Leipzig
+                        </p>
                         <MapComponent />
                     </AccordionDetails>
                 </Accordion>

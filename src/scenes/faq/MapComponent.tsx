@@ -18,7 +18,12 @@ const MapComponent = () => {
     <MapContainer
       center={position}
       zoom={13}
-      style={{ height: '400px', width: '100%' }} // Größe der Karte
+      style={{ 
+        height: '400px', 
+        width: '100%',
+        position: 'relative', // Stelle sicher, dass das Stacking korrekt ist
+        zIndex: 1, // Setze einen niedrigen z-index für die Karte
+      }} 
       scrollWheelZoom={false}
     >
       {/* Kachel-Layer */}
