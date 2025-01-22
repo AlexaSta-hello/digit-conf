@@ -36,26 +36,7 @@ const Faq = ({setSelectedPage}: Props) => {
             </div>
 
             <div className="max-w-[1200px] m-auto mt-32 px-5">
-                <Accordion disableGutters elevation={0}>
-                    <AccordionSummary
-                    expandIcon={<ExpandMoreIcon className="text-blue-3 text-6xl"/>}
-                    aria-controls="panel1-content"
-                    id="panel1-header"
-                    className="bg-blue-1"
-                    >
-                    <Typography 
-                        component="span"
-                        className="text-2xl text-blue-3">
-                            When is Digit Conf?
-                    </Typography>
-                    </AccordionSummary>
-                    <AccordionDetails
-                        className="bg-blue-1 text-blue-3 ">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
-                    malesuada lacus ex, sit amet blandit leo lobortis eget.
-                    </AccordionDetails>
-                </Accordion>
-                <Accordion disableGutters elevation={0}>
+                <Accordion disableGutters defaultExpanded elevation={0}>
                     <AccordionSummary
                     expandIcon={<ExpandMoreIcon className="text-blue-3 text-6xl"/>}
                     aria-controls="panel1-content"
@@ -75,6 +56,27 @@ const Faq = ({setSelectedPage}: Props) => {
                         <MapComponent />
                     </AccordionDetails>
                 </Accordion>
+
+                <Accordion disableGutters elevation={0}>
+                    <AccordionSummary
+                    expandIcon={<ExpandMoreIcon className="text-blue-3 text-6xl"/>}
+                    aria-controls="panel1-content"
+                    id="panel1-header"
+                    className="bg-blue-1"
+                    >
+                    <Typography 
+                        component="span"
+                        className="text-2xl text-blue-3">
+                            When is Digit Conf?
+                    </Typography>
+                    </AccordionSummary>
+                    <AccordionDetails
+                        className="bg-blue-1 text-blue-3 ">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse
+                    malesuada lacus ex, sit amet blandit leo lobortis eget.
+                    </AccordionDetails>
+                </Accordion>
+                
                 <Accordion disableGutters elevation={0}>
                     <AccordionSummary
                     expandIcon={<ExpandMoreIcon className="text-blue-3 text-6xl"/>}
