@@ -24,10 +24,10 @@ const SpeakersList = () => {
     return (
     
         <motion.div 
-                    className="sm:grid sm:grid-cols-2 md:grid-cols-3 gap-20 "
+                    className="grid sm:grid-cols-2 md:grid-cols-3 sm:gap-20 "
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{once: true, amount: 0.2}}
+                    viewport={{once: true}}
                     variants={parentVariant}
                 >
                     {speakers.map((speaker) => ( /* Array mit Icon, Überschirft, Text etc */

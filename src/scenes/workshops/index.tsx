@@ -37,7 +37,7 @@ const Workshops = ({setSelectedPage}: Props) => {
               }}
             >
               <p
-                className="text-3xl px-8 leading-normal sm:text-4xl sm:leading-relaxed 
+                className="text-3xl px-6 leading-normal sm:text-4xl sm:leading-relaxed 
                 lg:text-5xl lg:leading-relaxed mx-auto text-blue-1 font-semibold max-w-[1200px]"
               >
                 Experience four days of interdisciplinary and interactive workshops led by industry professionals.
@@ -63,7 +63,7 @@ const Workshops = ({setSelectedPage}: Props) => {
                 </ActionButton>   
             </motion.div>
 
-            <div className="max-w-[1200px] m-auto pb-16">
+            <div className="max-w-[1200px] m-auto px-6">
               <WorkshopSchedule />
             </div> 
  

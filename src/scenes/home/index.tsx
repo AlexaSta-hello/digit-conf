@@ -63,26 +63,26 @@ const Home = ({setSelectedPage}: Props) => {
             <DateAnimation />
 
             {/* JOIN US  */}
-            <div className="py-24 flex justify-center px-8 md:flex bg-blue-1 m-auto">
+            <div className="py-16 sm:py-24 flex justify-center px-6 md:flex bg-blue-1 m-auto">
                 
                 <motion.div
                     className="mt-10 md:mt-0 w-full overflow-hidden max-w-[1200px]"
                     initial="hidden"
                     whileInView="visible"
-                    viewport={{once: true, amount: 0.5}} /* Animation wird getriggert wenn man 0.5 vom div sieht*/
+                    viewport={{once: true, amount: 0.2}} /* Animation wird getriggert wenn man 0.5 vom div sieht*/
                     transition={{duration: 0.8}}
                     variants={{
                         hidden: {opacity: 0, y:50},
                         visible: {opacity: 1, y:0}
                     }}
                 >
-                    <div className="text-center flex flex-col items-center">
+                    <div className="text-center flex flex-col items-center pb-8">
                         <p 
-                            className="mb-10 text-5xl sm:text-7xl lg:text-8xl  mx-auto text-blue-2 font-semibold">
+                            className="mb-10 text-3xl sm:text-7xl lg:text-8xl  mx-auto text-blue-2 font-semibold">
                             Explore the forefront of digital networking and technology, shaping 
                             connections and ideas that inspire the future.
                         </p>
-                        <p className="mb-10 text-3xl sm:text-4xl leading-normal sm:leading-relaxed lg:text-5xl lg:leading-relaxed mx-auto text-blue-2 font-semibold">
+                        <p className="mb-10 text-2xl sm:text-4xl leading-normal sm:leading-relaxed lg:text-5xl lg:leading-relaxed mx-auto text-blue-2 font-semibold">
                             Join us for an unforgettable experience!
                         </p>
                         <ActionButton setSelectedPage={setSelectedPage}>

@@ -26,13 +26,13 @@ const WorkshopSchedule = () => {
 
   return (
     <motion.div
-      className="p-12"
+      className="pt-12"
       initial="hidden"
       animate="visible"
       variants={parentVariant}
     >
       {/* Grid für Tage und Workshops */}
-      <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
+      <div className="grid sm:grid-cols-2 md:grid-cols-4 gap-8">
         {days.map((day) => (
           <div key={day} className="col-span-1 mb-8">
             {/* Tag-Überschrift */}

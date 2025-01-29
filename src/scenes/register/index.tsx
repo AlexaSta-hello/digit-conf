@@ -43,7 +43,7 @@ const Register = ({setSelectedPage}: Props) => {
             <DateAnimation />
 
             {/* Form and Image */}
-            <div className="flex justify-center bg-green-2 py-16 px-8">
+            <div className="flex justify-center bg-green-2 py-16 px-6">
                 <div className="mt-10 justify-between md:flex w-full max-w-[1200px]">
                     <motion.div
                         className="basis-3/5 md:mt-0"
@@ -69,7 +69,8 @@ const Register = ({setSelectedPage}: Props) => {
                                 {...register("name", {
                                     required: true,
                                     maxLength: 100,
-                                })} />
+                            })} />
+                            
                             {errors.name && (
                                 <p className="mt-1 text-secondary-500">
                                     {errors.name.type === "required" && "Please enter your name."}
@@ -84,7 +85,8 @@ const Register = ({setSelectedPage}: Props) => {
                                 {...register("email", {
                                     required: true,
                                     pattern: /^[A-Z0-9._%+-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i,
-                                })} />
+                            })} />
+
                             {errors.email && (
                                 <p className="mt-1 text-secondary-500">
                                     {errors.email.type === "required" && "Please enter E-Mail."}

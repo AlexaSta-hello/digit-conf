@@ -27,7 +27,7 @@ const Speakers = ({setSelectedPage}: Props) => {
             
 
             {/* Speakers */}
-            <div className="flex items-center justify-center py-32 px-24 max-w-[1200px] m-auto">
+            <div className="flex items-center justify-center py-20 sm:py-32 px-6 max-w-[1200px] m-auto">
                 <SpeakersList />
             </div>
              

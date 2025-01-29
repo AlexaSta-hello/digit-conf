@@ -18,7 +18,7 @@ const HText = ({ children }: Props) => {
             }}
         >
             <h2 
-                className="font-audiowide text-5xl sm:text-6xl md:text-7xl lg:text-9xl p-4"
+                className="font-audiowide text-4xl sm:text-6xl md:text-7xl lg:text-9xl p-4"
             >
                 {children}
             </h2>
